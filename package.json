@@ -1,0 +1,22 @@
+{
+  "name": "fastify-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.2",
+    "@fastify/multipart": "^9.0.3",
+    "fastify": "^5.5.0",
+    "mongodb": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
